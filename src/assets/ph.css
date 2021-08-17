@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+hr {
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.intent {
+  text-indent: 2em;
+  line-height: 1.5;
+  word-break: break-all;
+  text-align: justify;
+}
+
+/* 每一块title的颜色 */
+.block-title {
+  color: #2397DF;
+  padding-bottom: 20px;
+}
+/* 二级title */
+.block-sub-title {
+  padding-bottom: 10px;
+}
+
+/* 高亮 */
+.highlight {
+  color: #FF5700;
+  border-radius: 5px;
+  background: #efefef;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+body {
+  /* color: #333; */
+  color: rgb(102,102,102);
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino;
+  background: rgb(195, 188, 178);
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.header {
+  background: rgb(64, 64, 65);
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+  color: #fff;
+}
+
+.apply-position {
+  color: #999;
+  padding-top: 10px;
+}
+
+/* 整体左右留个位置 */
+.main-container {
+  padding: 20px 0;
+  display: flex;
+}
+
+.content-aside {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 0 20px;
+  box-sizing: border-box;
+  border-right: 2px solid #ccc;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+.base-info-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.base-info-items .base-info-item {
+  flex-basis: 50%;
+  line-height: 1.5;
+}
+.base-info-item:last-child {
+  flex-basis: 100%;
+}
+
+.contact-ways {
+  margin-top: 15px;
+}
+
+.contact-way {
+  display: flex;
+  line-height: 1.8;
+}
+
+.phone,.wechat,.email,.address {
+  margin-left: 10px;
+}
+
+
+/* 主要中间的内容 */
+.main-content {
+  padding: 0 30px;
+  flex-grow: 1;
+}
+
+.job-detail {
+  margin: 20px 0;
+  line-height: 1.8;
+}
+
+.project-detail {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+.project-dutys {
+  margin: 5px 0;
+}
+.project-dutys p{
+  line-height: 1.8;
+}
+
+@media print {
+  body {
+    background: transparent;
+  }
+}
+
+
+
